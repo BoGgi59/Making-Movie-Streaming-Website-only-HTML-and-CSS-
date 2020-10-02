@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+.header {
+  /* background-color: darkslateblue; */
+
+  height: 11.06rem;
+  font-size: 0.8rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 56.25rem; /*900px*/
+  background: linear-gradient(35deg, black, #000099, #66c2ff, #ffcccc, #ffeee6);
+}
+
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 55rem /*880px*/;
+  /* background-color: darkturquoise; */
+  padding-bottom: 2.5rem;
+}
+.logo h1,
+.logo h2 {
+  margin: 0 0 0 0.56rem; /*9px*/
+  font: normal 300% "century gothic", arial, sans-serif;
+}
+.logo_text h1,
+.logo_text h1 a,
+.logo_text h1 a:hover {
+  padding: 1.38rem 0 0 0;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+.logo_text h2 {
+  color: #999;
+  font-size: 0.9rem;
+  padding-top: 0.4rem 0 0 0;
+}
